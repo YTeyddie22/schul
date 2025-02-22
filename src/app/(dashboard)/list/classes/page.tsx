@@ -47,7 +47,7 @@ const ClassesListPage = () => {
         <tr
             key={items.id}
             className="border-b border-gray-300 even:bg-slate-50 text-sm hover:bg-tedSkyLight">
-            <td className="text-lg text-gray-500">{items.name}</td>
+            <td className="flex items-center gap-4 p-4">{items.name}</td>
             <td className="hidden md:table-cell">{items.grade}</td>
             <td className="hidden md:table-cell">{items.capacity}</td>
             <td className="hidden md:table-cell">{items.supervisor}</td>
@@ -56,8 +56,8 @@ const ClassesListPage = () => {
                     <Link href={`/list/teachers/${items.id}`}>
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-tedSkyLight">
                             <Image
-                                src="/view.png"
-                                alt=""
+                                src="/edit.png"
+                                alt="edit"
                                 width={16}
                                 height={16}
                             />
@@ -67,7 +67,7 @@ const ClassesListPage = () => {
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-tedPurpleLight">
                             <Image
                                 src="/delete.png"
-                                alt=""
+                                alt="delete"
                                 width={16}
                                 height={16}
                             />

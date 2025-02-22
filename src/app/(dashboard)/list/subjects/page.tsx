@@ -47,8 +47,8 @@ const SubjectListPage = () => {
                     <Link href={`/list/teachers/${items.id}`}>
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-tedSkyLight">
                             <Image
-                                src="/view.png"
-                                alt=""
+                                src="/edit.png"
+                                alt="edit"
                                 width={16}
                                 height={16}
                             />
@@ -58,7 +58,7 @@ const SubjectListPage = () => {
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-tedPurpleLight">
                             <Image
                                 src="/delete.png"
-                                alt=""
+                                alt="delete"
                                 width={16}
                                 height={16}
                             />
