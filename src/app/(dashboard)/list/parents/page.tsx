@@ -64,8 +64,8 @@ const ParentsListPage = () => {
                     <Link href={`/list/teachers/${items.id}`}>
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-tedSkyLight">
                             <Image
-                                src="/view.png"
-                                alt="view"
+                                src="/edit.png"
+                                alt="edit"
                                 width={16}
                                 height={16}
                             />
