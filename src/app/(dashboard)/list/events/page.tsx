@@ -16,7 +16,6 @@ const columns = [
     {
         header: "Class",
         accessor: "class",
-        className: "hidden md:table-cell",
     },
     {
         header: "Date",
@@ -54,7 +53,7 @@ const EventsListPage = () => {
             key={items.id}
             className="border-b border-gray-300 even:bg-slate-50 text-sm hover:bg-tedSkyLight">
             <td className="flex items-center gap-4 p-4">{items.title}</td>
-            <td className="hidden md:table-cell">{items.class}</td>
+            <td>{items.class}</td>
             <td className="hidden md:table-cell">{items.date}</td>
             <td className="hidden md:table-cell">{items.startTime}</td>
             <td className="hidden md:table-cell">{items.endTime}</td>
