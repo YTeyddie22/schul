@@ -51,7 +51,7 @@ const ParentsListPage = () => {
             <td className="flex items-center gap-4 p-4">
                 <div className="flex flex-col">
                     <h3 className="font-semibold">{items.name}</h3>
-                    <p className="text-xs text-gray-500">{items.email}</p>
+                    <p className="text-xs text-gray-500">{items?.email}</p>
                 </div>
             </td>
             <td className="hidden md:table-cell">
